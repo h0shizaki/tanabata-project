@@ -25,7 +25,6 @@ const Home = () => {
                     placeholder={'Type your wish here'}
                     handleChange={hanldeWishing}
                 />
-
                 <Link to={"/wish"}>
                     <button className="btn btn-primary" onClick={() => {
                         dispatch({

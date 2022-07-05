@@ -3,7 +3,7 @@ import './App.css';
 import { Route, Routes } from "react-router-dom";
 import Announcement from "react-popup-announcement";
 import Navbar from "./components/Navbar.jsx";
-import img from "./static/img/pic5.png";
+import img from "./static/img/banner.png";
 
 import Home from './pages/Home'
 import Aboutus from './pages/Aboutus'
@@ -15,7 +15,6 @@ import { useContext } from 'react';
 function App() {
   const [state] = useContext(Context);
   
-
   return (
     <div className='background App'>
       <Navbar />
