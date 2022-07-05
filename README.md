@@ -17,10 +17,10 @@ In this hope I live.
 Deadline  : On tanabata day(star festival) **7/7**  
 
 ## Contributor  
-Hoshizaki  
-DeitYzS  
-Hakushin
-ManSmooth
+Hoshizaki   
+DeitYzS   
+Hakushin  
+ManSmooth  
 
 ## Image source  
 - <a href="https://www.ac-illust.com/" >イラスト AC （ac illust）</a>
