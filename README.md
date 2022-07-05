@@ -15,7 +15,7 @@ In this hope I live.
 ## Contributor  
 Hoshizaki  
 DeitYzS  
-Hakushin 
+Hakushin  
 ManSmooth 
 
 ## Image source  
