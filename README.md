@@ -10,11 +10,14 @@ In this hope I live.
 ```
 
 # Plan  
-- Using SvelteJS todo frontend work  
+- Using React todo frontend work  
 - No backend?  
 - Collab with friends!  
 
 Deadline  : On tanabata day(star festival) **7/7**  
+
+## Contributor  
+Hoshizaki  
 
 ## Image source  
 - <a href="https://www.ac-illust.com/" >イラスト AC （ac illust）</a>
