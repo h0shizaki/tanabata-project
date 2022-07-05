@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./about-style.css">
+    <script src="about-script.js"></script>
     <title>🌟七夕 In this hope I live</title>
-    <script src="./script.js"></script>
     <script>
         (function (d) {
             var config = {
@@ -27,18 +28,17 @@
             onclick="document.querySelector('#simple-banner').style.display = 'none'">X</button>
         <img src="./static/img/22802668.png" alt="natsumatsuri" class="simple-banner-img">
     </div> -->
-    
-    <div class="bg">
+    <div class="about-container" style="background-color: white;">
         <ul class="nav" style="background-color: white; padding: 0.5rem;">
             <a class="nav-link  nav-header" href="./index.html">たなばた</a>
-            <a class="nav-link  nav-element waitBeforeNavigate" href="./about.html" onclick="document.getElementById('transition').style.animationPlayState = 'running';">About</a>
+            <a class="nav-link  nav-element" href="./about.html">About</a>
         </ul>
-        <div id="transition"></div>
-
-        <div id="bamboo-container">
-            <img id="bamboo" src="./static/img/22829233.png" alt="bamboo tanabata">
-            <a href="#"><img class="card" src="./static/img/card/yellowCard.png" alt="bamboo tanabata"></a>
-        </div>
+        <div id="text-container" class="fade-in" >
+            <h1>
+                Created by
+            </h1>
+            <ul id="discord-list" class="fade-in"></ul>
+            </div>
     </div>
 
 </body>

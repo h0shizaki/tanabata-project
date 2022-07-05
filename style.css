@@ -4,11 +4,6 @@ body {
     margin: 0;
 }
 
-h1,
-h2 {
-    font-weight: bold;
-}
-
 #bamboo-container {
     z-index: -1;
     position: fixed;
@@ -86,7 +81,43 @@ h2 {
     height: 90%;
 }
 
+#transition {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    bottom: 100%;
+    animation-name: transition;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-play-state: paused;
+    animation-fill-mode: forwards; 
+}
+
+@keyframes transition {
+    0% {
+        bottom: 100%;
+    }
+    100% {
+        bottom: 0%;
+    }
+}
+
+@keyframes nav-in {
+    0% {
+        transform: translate(0, -200%);
+    }
+    66% {
+        transform: translate(0, -100%);
+    }
+    100% {
+        transform: translate(0, 0%);
+    }
+}
+
 .nav {
+    z-index: 1;
     position: relative;
     margin: 0;
     overflow: hidden;
@@ -97,6 +128,11 @@ h2 {
     top: 0%;
     gap: 1em;
     font-size: 2em;
+    animation-name: nav-in;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards; 
+    transform: translate(0, -200%);
 }
 
 .nav-subheader {
@@ -117,6 +153,14 @@ h2 {
 .nav-header {
     color: #12aae4;
     font-size: 2rem;
+}
+
+.nav-header:hover {
+    color: #55ccff;
+}
+
+.nav-element:hover {
+    color: #aaa;
 }
 
 .input-form {
