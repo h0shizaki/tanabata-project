@@ -1,0 +1,25 @@
+#bamboo-container {
+    z-index: -1;
+    position: fixed;
+    left: 15%;
+    bottom: 0%;
+
+}
+
+#bamboo {
+    z-index: -1;
+    object-fit: contain;
+    position: fixed;
+
+    left: 5px;
+    bottom: -5px;
+    max-height: 80%;
+    max-width: 80%;
+}
+
+@media screen and (max-width: 800px) {
+    #bamboo {
+        left: 5px;
+        bottom: px;
+    }
+}

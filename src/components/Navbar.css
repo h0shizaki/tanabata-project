@@ -1,0 +1,32 @@
+.nav {
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    top: 0%;
+    gap: 1em;
+    font-size: 2em;
+}
+
+.nav-subheader {
+    font-weight: bold;
+    color: rgb(54, 54, 54);
+    font-size: medium;
+}
+
+.nav-link {
+    font-family: ab-tsubaki, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-header {
+    color: #12aae4;
+    font-size: 2rem;
+}

@@ -1,4 +1,73 @@
-.card-display {
-    margin-top: 3rem;
-    display: flex;
+ .card-pos-1 {
+    position: fixed;
+    left: 8%;
+    bottom: 35%;
+}
+
+.card-pos-2 {
+    position: fixed;
+    left: 19%;
+    bottom: 12%;
+} 
+
+.card-pos-3 {
+    position: fixed;
+    left: 32%;
+    bottom: 48%;
+} 
+
+.card-pos-4 {
+    position: fixed;
+    left: 18%;
+    bottom: 48%;
+} 
+
+@media screen and (max-width:1400px) {
+    .card-pos-1 {
+        position: fixed;
+        left: 50%;
+        bottom: 50%;
+    }
+    
+    .card-pos-2 {
+        position: fixed;
+        left: 29%;
+        bottom: 49%;
+    } 
+    
+    .card-pos-3 {
+        position: fixed;
+        left: 42%;
+        bottom: 15%;
+    } 
+    .card-pos-4 {
+        position: fixed;
+        left: 4%;
+        bottom: 25%;
+    }  
+}
+
+@media screen and (max-width: 800px) {
+    .card-pos-1 {
+        position: fixed;
+        left: 50%;
+        bottom: -5%;
+    }
+    
+    .card-pos-2 {
+        position: fixed;
+        left: 19%;
+        bottom: 7%;
+    } 
+    
+    .card-pos-3 {
+        position: fixed;
+        left: 55%;
+        bottom: 15%;
+    } 
+    .card-pos-4 {
+        position: fixed;
+        left: 2%;
+        bottom: 0%;
+    } 
 }

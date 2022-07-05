@@ -1,18 +1,15 @@
 [
     {
         "no": 1 ,
-        "text" : "test"
+        "text" : "I hope I pass the exam."
     },
     {
         "no": 2 ,
-        "text" : "test"
+        "text" : "I hope I am rich."
     } ,
     {
         "no": 3 ,
-        "text" : "test"
-    } ,
-    {
-        "no": 4 ,
-        "text" : "test"
-    }  
+        "text" : "I hope I have a girlfriend"
+    } 
+    
 ]

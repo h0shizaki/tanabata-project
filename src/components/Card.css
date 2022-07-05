@@ -1,39 +1,8 @@
 .card {
-    margin: 2px;
-    width: 6%;
-    height: 10%;
-    transition: 0.2s;
+    max-width: 4rem;
+    max-height: 10rem;
+
+    min-width: 4rem;
+    min-height: 10rem;
 }
 
-/* .card:hover {
-    width: 7%;
-    transition: 0.2s;
-} */
-
-.simple-banner {
-    top: 15%;
-    left: 28%;
-    position: fixed;
-    z-index: 99;
-    text-align: center;
-    display: none;
-    width: 60%;
-    height: 60%;
-    background-color: white;
-    min-width: 20rem;
-    min-height: 20rem;
-    max-width: 50rem;
-    max-height: 80rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.simple-banner-btn {
-    font-size: 1em;
-    float: right;
-    border: 0px solid rgb(68, 68, 68);
-}
-
-.simple-banner-img {
-    width: 100%;
-    height: 90%;
-}

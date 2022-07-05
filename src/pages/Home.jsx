@@ -4,6 +4,7 @@ import { Fragment, useState, useContext } from "react";
 import Input from "../components/form-components/Input";
 import { Context } from '../lib/Provider';
 import { Link } from 'react-router-dom';
+import Bamboo from '../components/Bamboo';
 
 const Home = () => {
 
@@ -35,8 +36,8 @@ const Home = () => {
                         Submit
                     </button>
                 </Link>
-
             </div>
+            <Bamboo />
         </Fragment>
     );
 }

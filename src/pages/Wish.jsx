@@ -1,19 +1,31 @@
 import { Fragment } from "react";
+import Bamboo from "../components/Bamboo";
 import Card from "../components/Card";
 import './Wish.css';
+
+const mockData = require('../static/mockData.json');
 
 const Wish = (props) => {
 
 
     return (
         <Fragment>
-            <div className="card-display">
-                <Card color={'yellow'} wishingText={props.wishing} />
-                {/* <Card color={'green'} />
-                <Card color={'pink'} />
-                <Card color={'orange'} /> */}
+            <Bamboo />
+
+            <div className="card-pos-2">
+                <Card color={'green'} wishingText={mockData[0].text} />
             </div>
-            <h1>THIS IS Your wishing {props.wishing}</h1>
+            <div className="card-pos-1">
+                <Card color={'pink'} wishingText={mockData[1].text} />
+            </div>
+            <div className="card-pos-3">
+                <Card color={'orange'} wishingText={mockData[2].text} />
+            </div> 
+             <div className="card-pos-4">
+                <Card color={'yellow'} wishingText={props.wishing} />
+            </div>
+
+
         </Fragment>
 
     );
