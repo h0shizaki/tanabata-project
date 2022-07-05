@@ -19,6 +19,7 @@ Deadline  : On tanabata day(star festival) **7/7**
 ## Contributor  
 Hoshizaki  
 DeitYzS  
+Hakushin  
 
 ## Image source  
 - <a href="https://www.ac-illust.com/" >イラスト AC （ac illust）</a>
