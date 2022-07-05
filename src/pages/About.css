@@ -1,8 +1,9 @@
 .text-container{
-    margin: 2rem auto;
-    padding: 2rem;
+    text-align: center;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
     max-width: 50% ;
-    max-height: 65%;
+    max-height: 90%;
     background-color: white;
     border-radius: 0.5rem ;
     box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -10,10 +11,18 @@
 
 .creditContainer {
     text-align: center;
-    margin: 2rem auto;
+    margin: 0.5rem auto;
     display: flex;
 }
 
 .warp {
     margin: 0.5rem;
+}
+
+h1 {
+    font-family: ab-tsubaki, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 4rem;
+
 }

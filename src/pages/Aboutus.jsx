@@ -27,7 +27,7 @@ const Aboutus = () => {
                     </a>
                 </div>
                 <div className='warp'>
-                    <a href='https://github.com/h0shizaki/tanabata-project'>
+                    <a href="https://www.ac-illust.com/">
                         <button class='btn btn-danger '>
                             イラスト AC
                         </button>
