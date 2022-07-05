@@ -10,7 +10,7 @@ In this hope I live.
 ```
 
 # Plan  
-- Using SvelteJS todo frontend work  
+- Using ~~SvelteJS~~ React todo frontend work  
 - No backend?  
 - Collab with friends!  
 
