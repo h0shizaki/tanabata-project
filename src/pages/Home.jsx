@@ -12,6 +12,7 @@ const Home = () => {
     const [state, dispatch] = useContext(Context);
 
     function hanldeWishing(evt) {
+
         setWishing(evt.target.value);
     }
 
@@ -26,16 +27,30 @@ const Home = () => {
                     placeholder={'Type your wish here'}
                     handleChange={hanldeWishing}
                 />
-                <Link to={"/wish"}>
-                    <button className="btn btn-primary" onClick={() => {
-                        dispatch({
-                            payload: wishing
-                        })
-                        setWishing('')
-                    }}>
-                        Submit
-                    </button>
-                </Link>
+                {wishing.length > 3 &&
+                    <Fragment>
+
+                        <Link to={"/wish"}>
+                            <button className="btn btn-primary" onClick={() => {
+                                if (wishing.length !== 0) {
+                                    dispatch({
+                                        payload: wishing
+                                    })
+                                    setWishing('')
+                                } else {
+
+                                }
+                            }}>
+                                Submit
+                            </button>
+                        </Link>
+                    </Fragment>
+                } {wishing.length <= 3 &&
+                    <Fragment>
+                        <p style={{ 'color': 'red' }}>You must type at least 4 text</p>
+                        <button className="btn btn-primary" disabled>Submit</button>
+                    </Fragment>
+                }
             </div>
             <Bamboo />
         </Fragment>

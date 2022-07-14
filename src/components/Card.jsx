@@ -6,19 +6,6 @@ const Card = (props) => {
 
     const [status, setStatus] = useState(false);
 
-    const handleMouseOver = () => {
-        console.log(props.wishingText);
-    }
-
-    const handleMouseOut = () => {
-
-    }
-
-    // const handleClick = 
-
-    // Should pass color , wish , *positionX , *positionY
-    // * for not sure
-
     return (
         <Fragment>
 
@@ -37,8 +24,6 @@ const Card = (props) => {
                 onClick={() => {
                     setStatus(true);
                 }}
-                onMouseOver={handleMouseOver}
-                onMouseOut={handleMouseOut}
             />
 
         </Fragment>
